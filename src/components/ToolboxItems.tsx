@@ -29,9 +29,9 @@ export const ToolboxItems = ({
       >
         {[...new Array(2)].fill(0).map((_, index) => (
           <Fragment key={index}>
-            {items.map((item) => (
+            {items.map((item, itemIndex) => (
               <div
-                key={item.title}
+                key={`${item.title}-${itemIndex}`} // Unique key for each item
                 className="inline-flex items-center gap-4 py-2 px-3 outline outline-2 outline-white/10 rounded-lg"
               >
                 <TechIcon component={item.iconType} />

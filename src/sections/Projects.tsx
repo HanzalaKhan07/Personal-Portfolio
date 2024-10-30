@@ -4,7 +4,7 @@ import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
 import portfolioImage from "@/assets/images/portfolioo.png";
 import nikeLandingPage from "@/assets/images/nike.jpg";
 import ecommerce from "@/assets/images/ecommercee.png";
-import weatherWebImage from "@/assets/images/weather.jpg"
+import weatherWebImage from "@/assets/images/weather.jpg";
 import schoolDashboard from "@/assets/images/schoolDashboard.jpg";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
@@ -44,7 +44,9 @@ const portfolioProjects = [
     year: "2024_ongoing",
     title: "School Management Dashboard",
     results: [
-      { title: "Tech: Next.js, Tailwind CSS, Prisma, PostgreSQL, Clerk, Docker" },
+      {
+        title: "Tech: Next.js, Tailwind CSS, Prisma, PostgreSQL, Clerk, Docker",
+      },
       { title: "Role-based dashboard for admin, teachers, students." },
       { title: "Dynamic data with filtering and pagination." },
       { title: "Prisma for data fetching and Clerk for authentication." },
@@ -77,12 +79,12 @@ const portfolioProjects = [
     ],
     link: "https://github.com/HanzalaKhan07",
     image: nikeLandingPage,
-  }
+  },
 ];
 
 export const ProjectsSection = () => {
   return (
-    <section  className="pb-16 lg:py-24">
+    <section className="pb-16 lg:py-24">
       <div id="projects" className="container">
         <SectionHeader
           eyebrow="Real-world Results"
@@ -111,10 +113,13 @@ export const ProjectsSection = () => {
                   </h3>
                   <hr className="border-t-2 border-white/5 mt-4 md:mt-5" />
                   <ul className="flex flex-col gap-4 mt-4 md:mt-5">
-                    {project.results.map((result) => (
-                      <li className="flex gap-2 text-sm md:text-base text-white/50">
+                    {project.results.map((result, index) => (
+                      <li
+                        key={index}
+                        className="flex gap-2 text-sm md:text-base text-white/50"
+                      >
                         <CheckCircleIcon className="size-5 md:size-6" />
-                        <span className="">{result.title}</span>
+                        <span>{result.title}</span>
                       </li>
                     ))}
                   </ul>
