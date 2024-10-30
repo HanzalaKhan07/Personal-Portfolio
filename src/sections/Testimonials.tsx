@@ -10,7 +10,7 @@ const testimonials = [
   {
     name: "Antoine Dupont",
     position: "Director of Sustainable Initiatives @ EcoFriendly Products",
-    text: "Hanzala's attention to detail and creative approach truly transformed our online presence. His dedication was evident and I would definitely recommend his services to others.",
+    text: "Hanzala&apos;s attention to detail and creative approach truly transformed our online presence. His dedication was evident and I would definitely recommend his services to others.",
     avatar: memojiAvatar3,
   },
   {
@@ -22,7 +22,7 @@ const testimonials = [
   {
     name: "George Taylor",
     position: "Co-Founder @ Startup Hub",
-    text: "Teaming up with Hanzala was a game changer for us. His full-stack development skills played a crucial role in launching our platform, and we couldn't be happier with the outcome!",
+    text: "Teaming up with Hanzala was a game changer for us. His full-stack development skills played a crucial role in launching our platform, and we couldn&apos;t be happier with the outcome!",
     avatar: memojiAvatar1,
   },
 ];
@@ -34,7 +34,7 @@ export const TestimonialsSection = () => {
         <SectionHeader
           eyebrow="HAPPY CLIENTS"
           title="What Clients Say about ME"
-          description="Don't just take my word for it. See what my clients have to say about my work"
+          description="Don&apos;t just take my word for it. See what my clients have to say about my work"
         />
         <div className="mt-12 lg:mt-20 flex overflow-x-clip [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)] py-4 -my-4">
           <div className="flex gap-8 pr-8 flex-none animate-move-left [animation-duration:90s] hover:[animation-play-state:paused]">
