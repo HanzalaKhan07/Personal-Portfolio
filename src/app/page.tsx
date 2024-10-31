@@ -9,7 +9,7 @@ import { TestimonialsSection } from "@/sections/Testimonials";
 
 export default function Home() {
   return (
-    <div className="border border-white">
+    <div className="">
       <Header/>
       <HeroSection/>
       <ProjectsSection/>

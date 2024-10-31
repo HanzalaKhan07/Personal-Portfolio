@@ -14,20 +14,7 @@ import SectionHeader from "@/components/SectionHeader";
 import { Card } from "@/components/Card";
 const portfolioProjects = [
   {
-    company: "Personal Project",
-    year: "In Progress",
-    title: "E-Commerce Web App",
-    results: [
-      { title: "Tech: React, Next.js, Tailwind CSS, Wix Headless CMS" },
-      { title: "Features: Categories, filters, pagination, and search." },
-      { title: "Cart management with quantity updates." },
-      { title: "User profiles with order tracking." },
-    ],
-    link: "",
-    image: ecommerce,
-  },
-  {
-    company: "Personal Project",
+    company: "Self project",
     year: "2023",
     title: "3D Portfolio Website",
     results: [
@@ -36,13 +23,13 @@ const portfolioProjects = [
       { title: "Smooth navigation and immersive experience." },
       { title: "Responsive across all devices." },
     ],
-    link: "",
+    link: "https://3d-portfolio-app-omega.vercel.app/",
     image: portfolioImage,
   },
   {
-    company: "Personal Project",
-    year: "2024_ongoing",
-    title: "School Management Dashboard",
+    company: "Self project",
+    year: "ongoing",
+    title: "Full-Stack School Management Dashboard",
     results: [
       {
         title: "Tech: Next.js, Tailwind CSS, Prisma, PostgreSQL, Clerk, Docker",
@@ -55,7 +42,7 @@ const portfolioProjects = [
     image: schoolDashboard,
   },
   {
-    company: "Personal Project",
+    company: "Self project",
     year: "2022",
     title: "Weather Web App",
     results: [
@@ -68,7 +55,20 @@ const portfolioProjects = [
     image: weatherWebImage,
   },
   {
-    company: "Personal Project",
+    company: "Self project",
+    year: "2024",
+    title: "E-Commerce Web App",
+    results: [
+      { title: "Tech: React, Next.js, Tailwind CSS, Wix Headless CMS" },
+      { title: "Features: Categories, filters, pagination, and search." },
+      { title: "Cart management with quantity updates." },
+      { title: "User profiles with order tracking." },
+    ],
+    link: "",
+    image: ecommerce,
+  },
+  {
+    company: "Self project",
     year: "2023",
     title: "Nike Landing Page",
     results: [

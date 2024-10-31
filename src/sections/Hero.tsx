@@ -66,7 +66,7 @@ export const HeroSection = () => {
   <div className="max-w-lg mx-auto">
   <h1 className="text-3xl font-serif text-center mt-8 tracking-wide md:text-5xl">Building Exceptional User Experiences</h1>
   <p className="mt-4 text-center text-white/60 md:text-lg">
-  I specialize in transforming designs into functional, high-performing web applications. Let&apos;s discuss your next project.
+  I specialize in transforming designs into functional, high-performing web applications. Let's discuss your next project.
 </p>
 
   </div>
@@ -77,7 +77,7 @@ export const HeroSection = () => {
     </button>
    <button className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl">
     <span>👋</span>
-    <span>Let&apos;s Connect</span>
+    <span>Let's Connect</span>
    </button>
   </div>
   </div>
