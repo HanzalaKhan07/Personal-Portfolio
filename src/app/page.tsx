@@ -12,9 +12,9 @@ export default function Home() {
     <div className="">
       <Header/>
       <HeroSection/>
-      <ProjectsSection/>
-      <TapeSection/>
       <AboutSection/>
+      <TapeSection/>
+      <ProjectsSection/>
       <TestimonialsSection/>
       <ContactSection/>
       <Footer/>

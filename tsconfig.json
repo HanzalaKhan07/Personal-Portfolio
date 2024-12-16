@@ -21,6 +21,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/sections/ContactForm.jsx", "src/components/ui/textarea.jsx", "src/components/ui/select.jsx", "src/components/ui/input.jsx"],
   "exclude": ["node_modules"]
 }

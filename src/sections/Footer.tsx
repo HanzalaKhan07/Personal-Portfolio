@@ -43,7 +43,7 @@ export const Footer = () => {
              rel="noopener noreferrer" // Adds security for external links
            >
              <span className="font-semibold">{link.title}</span>
-             <ArrowUpRightIcon className="size-4 transform hover:scale-110 hover:rotate-45 transition-transform duration-200" />
+             <ArrowUpRightIcon className="size-4 group transform group-hover:scale-110 group-hover:rotate-45 transition-transform duration-200" />
            </a>
            
             ))}
