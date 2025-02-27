@@ -16,7 +16,7 @@ const config: Config = {
   		lg: '1200px'
   	},
   	container: {
-  		center: 'true',
+  		center: true,
   		padding: {
   			DEFAULT: '1rem',
   			md: '2rem'
