@@ -7,7 +7,7 @@ const footerLinks = [
   },
   {
     title: "Tiktok",
-    href: "#",
+    href: "https://www.tiktok.com/@ur_hanzoo?_t=ZS-8ubLmhElB5e&_r=1",
   },
   {
     title: "Instagram",
